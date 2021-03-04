@@ -6,4 +6,7 @@
 
 ### How to build solution and execute via command line
 1) Open terminal
-2) cd into MovieTheaterChallenge/Walmart/src
+2) cd into MovieTheaterChallenge/Walmart/src/MovieTheater
+3) Type "javac TheaterHost.java" (without quotes) and hit Enter
+
+*NOTE: No prompt will appear in terminal, but a file (named AssignedSeating.txt) was created in filepath MovieTheaterChallenge/Walmart*
