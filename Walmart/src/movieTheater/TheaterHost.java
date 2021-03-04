@@ -50,7 +50,7 @@ public class TheaterHost {
 		}
 	}
 	
-	private static void findSeats(int[] row, int[] col, int numSeatsNeeded, String[] lineSplit) {
+	public static void findSeats(int[] row, int[] col, int numSeatsNeeded, String[] lineSplit) {
 		ArrayList<String> seatList = new ArrayList<>();
 
 		if (numSeatsNeeded > (MAX_COLS - col[0] + 1)) {
